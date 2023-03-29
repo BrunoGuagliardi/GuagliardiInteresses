@@ -20,7 +20,7 @@ html,body{
   overflow-y: hidden;
   overflow-x: hidden;
   font-family: 'Poppins', sans-serif;
-  background-image: url(../img/Wallpaper.png);
+  background-image: url("img/Wallpaper.png");
 }
 
 hr{
