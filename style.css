@@ -79,21 +79,6 @@ nav a li span{
   color: #05A869;
 }
 
-h1{
-  display: table;
-  margin-left: 565px;
-  font-size: 45px;
-  color: #05A869;
-}
-
-h2{
-  display: table;
-  text-align: justify;
-  margin: auto;
-  color: #05A869;
-  font-size: 20px;
-}
-
 section{ 
   background-color: transparent;
   display: table;
@@ -104,13 +89,16 @@ section h1{
   display: table;
   margin: auto;
   margin-top: 30px;
-  font-size: 34px;
+  font-size:34px;
+  color: #05A869;
+  background-color: transparent;
 }
 
 section img{ 
   height: 160px;
   width: 160px;
   border-radius: 50%;
+  background-color: transparent;
 }
 
 .Jogar, .Assistir, .Malhar, .Cozinhar{
@@ -119,51 +107,61 @@ section img{
   text-align: center;
   margin: 80px;
   margin-top: 35px;
+  background-color: transparent;
 }
 
-.Jogar, .Assistir, .Malhar, .Cozinhar figcaption{
+figcaption{
   color: #EFEFEF;
   font-size: 18px;
+  background-color: transparent;
 }
 
 .Jogar figcaption span{
   color: #05A869;
   font-size: 22px;
   animation: fadein 2s;
+  background-color: transparent;
 }
 
 .Assistir figcaption span{
   color: #05A869;
   font-size: 22px;
   animation: fadein 2s;
+  background-color: transparent;
 }
 
 .Malhar figcaption span{
   color: #05A869;
   font-size: 22px;
   animation: fadein 2s;
+  background-color: transparent;
 }
 
 .Cozinhar figcaption span{
   color: #05A869;
   font-size: 22px;
   animation: fadein 2s;
+  background-color: transparent;
 }
 
 .Jogar{
   animation: slide 2s;
+  background-color: transparent;
 }
 
 .Assistir{
   animation: slide 2s;
+  background-color: transparent;
 }
 
 .Malhar{
   animation: slide 1s;
+  background-color: transparent;
 }
 
 .Cozinhar{
   animation: slide 1s;
+  background-color: transparent;
 }
 
 section li{
@@ -175,6 +173,7 @@ section li{
 
 section ul{
   margin-top: 15px;
+  background-color: transparent;
 }
 
 @keyframes slide{
